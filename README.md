@@ -1,19 +1,13 @@
-# Dataset files
+# Dataset resources
 
-This folder contains:
+Use `curl` to retrieve the resources in this folder in whichever way best
+suits your workflow.
 
-- `master_dataset.csv` - student-level records.
-- `transcripts.csv` - course-level transcript records.
-- `data_dictionary.md` - field definitions and value domains.
+The available resources are:
 
-## Download with curl
-
-Set `BASE_URL` to the URL serving this folder, then run:
-
-```bash
-curl -O "$BASE_URL/master_dataset.csv"
-curl -O "$BASE_URL/transcripts.csv"
-curl -O "$BASE_URL/data_dictionary.md"
-```
-
-`curl` downloads files individually; it does not download a folder URL directly.
+- `master_dataset.csv` - student-level demographic, academic, engagement,
+  support, and outcome variables.
+- `transcripts.csv` - course-level records containing student, course,
+  semester, grade, unit, GPA, and academic-standing information.
+- `data_dictionary.md` - field descriptions, data types, and missing-value
+  information for both CSV files.
